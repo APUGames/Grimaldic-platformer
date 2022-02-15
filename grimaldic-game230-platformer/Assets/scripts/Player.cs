@@ -7,10 +7,12 @@ public class Player : MonoBehaviour
     [SerializeField] float runSpeed = 5.0f;
     [SerializeField] float jumpSpeed = 5.0f;
     [SerializeField] float climbSpeed = 5.0f;
+
+
     Rigidbody2D playerCharacter;
     Animator playerAnimator;
-
-    Collider2D playerCollider;
+    CapsuleCollider2D playerBodyCollider;
+    BoxCollider2D playerFeetCollider;
 
     float gravityScaleAtStart;
 
@@ -21,8 +23,9 @@ public class Player : MonoBehaviour
     {
         playerCharacter = GetComponent<Rigidbody2D>();
         playerAnimator = GetComponent<Animator>();
-        playerCollider = GetComponent<Collider2D>();
+        playerBodyCollider = GetComponent<CapsuleCollider2D>();
         gravityScaleAtStart = playerCharacter.gravityScale;
+        playerFeetCollider = GetComponent<BoxCollider2D>();
     }
 
     // Update is called once per frame
@@ -63,7 +66,7 @@ public class Player : MonoBehaviour
     }
     private void Jump()
     {
-        if(!playerCollider.IsTouchingLayers(LayerMask.GetMask("Ground")))
+        if(!playerFeetCollider.IsTouchingLayers(LayerMask.GetMask("Ground")))
         {
          // Will stop this function unless true
          return;
@@ -78,7 +81,7 @@ public class Player : MonoBehaviour
     }
     private void Climb()
     {
-        if (!playerCollider.IsTouchingLayers(LayerMask.GetMask("Climbing")))
+        if (!playerFeetCollider.IsTouchingLayers(LayerMask.GetMask("Climbing")))
         {
             playerAnimator.SetBool("climb", false);
             playerCharacter.gravityScale = gravityScaleAtStart;
