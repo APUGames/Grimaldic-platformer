@@ -111,6 +111,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -868,6 +869,36 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      player_01_21: 613750563364031019
+      player_01_3: -806399629883049517
+      player_01_22: 845582216410078447
+      player_01_25: -7033826464932331840
+      player_01_17: 2337603771095907786
+      player_01_6: 8484905602223811103
+      player_01_20: 6124252854421330312
+      player_01_24: 3135640392940257566
+      player_01_8: 4316933195731309063
+      player_01_28: -979997832423745260
+      player_01_16: -7331761320655122348
+      player_01_10: 9064342322288978518
+      player_01_14: 2325995714813054518
+      player_01_23: -7790254778832837802
+      player_01_26: 7553600313367830968
+      player_01_27: -8297347519231963163
+      player_01_11: 6759108054051125004
+      player_01_19: -3508620109075009249
+      player_01_13: -5102054722549042434
+      player_01_15: -2356949049405555673
+      player_01_18: 8335003328530795913
+      player_01_2: -8125395500538619467
+      player_01_5: 1941003608546079080
+      player_01_0: -3283838829243059928
+      player_01_4: 7122952040183551520
+      player_01_1: 5471635051840509692
+      player_01_7: -6043113492463123461
+      player_01_9: -7595074189132004710
+      player_01_12: -8038749498424224362
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

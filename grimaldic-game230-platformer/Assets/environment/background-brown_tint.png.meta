@@ -72,6 +72,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -496,6 +497,23 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      background-brown_tint_10: 2183214166844516830
+      background-brown_tint_11: -2528918451636298647
+      background-brown_tint_2: 8617677762587557721
+      background-brown_tint_4: 3537491207384561487
+      background-brown_tint_15: -8038877238628225574
+      background-brown_tint_12: -7084445273125606544
+      background-brown_tint_13: 1873466083825035804
+      background-brown_tint_1: -706385204417992043
+      background-brown_tint_5: -7968137251085353096
+      background-brown_tint_8: 6892897692423419141
+      background-brown_tint_0: -3166262837057693590
+      background-brown_tint_14: -2171922381841750067
+      background-brown_tint_9: -613685376222987962
+      background-brown_tint_6: -2402631898417916272
+      background-brown_tint_3: 6973813702979923596
+      background-brown_tint_7: -9168522316780372940
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

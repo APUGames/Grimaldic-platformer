@@ -114,6 +114,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -832,6 +833,37 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      rock_grass_water_29: -5219785651140142875
+      rock_grass_water_24: -8591565174269318175
+      rock_grass_water_25: -748195510264660810
+      rock_grass_water_11: -588509616980650806
+      rock_grass_water_3: 2612477554214917952
+      rock_grass_water_15: 2404830671261497764
+      rock_grass_water_8: -3693848867700933037
+      rock_grass_water_20: -5019968179988213518
+      rock_grass_water_27: 1360841837258349670
+      rock_grass_water_4: -7732445349632430707
+      rock_grass_water_6: -2633025959292688121
+      rock_grass_water_19: 2327835730371397202
+      rock_grass_water_18: -2013042803701831129
+      rock_grass_water_23: 8395005245123277478
+      rock_grass_water_28: 3995396277772667255
+      rock_grass_water_17: 7667468150454821151
+      rock_grass_water_1: 7982449399291704824
+      rock_grass_water_16: 4978058660096070290
+      rock_grass_water_9: 2684815685577412443
+      rock_grass_water_12: -6698484602747206610
+      rock_grass_water_10: 7310010415026231053
+      rock_grass_water_14: 6732698290368387712
+      rock_grass_water_7: 779013900973243582
+      rock_grass_water_13: -4814850824103564880
+      rock_grass_water_5: 6283490530356195943
+      rock_grass_water_26: 7316500294856673220
+      rock_grass_water_0: -6562964718578228584
+      rock_grass_water_2: -1037017523937254381
+      rock_grass_water_21: 877705132230959868
+      rock_grass_water_22: -9013158005543446907
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

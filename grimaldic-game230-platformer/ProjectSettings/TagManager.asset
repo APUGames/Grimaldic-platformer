@@ -16,8 +16,8 @@ TagManager:
   - Background
   - Player
   - Enemy
-  - 
-  - 
+  - Traps
+  - Pickups
   - 
   - 
   - 
@@ -50,12 +50,15 @@ TagManager:
   - name: Climbing
     uniqueID: 2171680033
     locked: 0
+  - name: Traps
+    uniqueID: 1630972475
+    locked: 0
   - name: Player
     uniqueID: 4156469091
     locked: 0
   - name: Enemy
     uniqueID: 4013200801
     locked: 0
-  - name: Traps
-    uniqueID: 1630972475
+  - name: Pickups
+    uniqueID: 2226972885
     locked: 0

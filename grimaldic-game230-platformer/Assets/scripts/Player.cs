@@ -6,7 +6,12 @@ public class Player : MonoBehaviour
 {
     [SerializeField] float runSpeed = 5.0f;
     [SerializeField] float jumpSpeed = 5.0f;
-    [SerializeField] float climbSpeed = 5.0f;
+    [SerializeField] float climbSpeed = 5.0f; 
+    [SerializeField] Vector2 deathSeq = new Vector2(25f, 25f); 
+    [SerializeField] AudioClip jumpSound; 
+    AudioSource audioSource; 
+
+    bool isAlive = true; //Starts true because the player is alive
 
 
     Rigidbody2D playerCharacter;
@@ -25,16 +30,23 @@ public class Player : MonoBehaviour
         playerAnimator = GetComponent<Animator>();
         playerBodyCollider = GetComponent<CapsuleCollider2D>();
         gravityScaleAtStart = playerCharacter.gravityScale;
-        playerFeetCollider = GetComponent<BoxCollider2D>();
+        playerFeetCollider = GetComponent<BoxCollider2D>(); 
+        audioSource = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
     void Update()
     {
+        if(!isAlive)
+        {
+            return;
+        }
+
         Run();
         Jump();
         Climb();
-        FlipSprite();
+        FlipSprite(); 
+        Die();
     }
 
     private void Run()
@@ -76,7 +88,8 @@ public class Player : MonoBehaviour
             if (Input.GetButtonDown("Jump"))
             { // Get new Y velocity based on a controllable variable
                 Vector2 jumpVelocity = new Vector2(0.0f, jumpSpeed);
-                playerCharacter.velocity += jumpVelocity;
+                playerCharacter.velocity += jumpVelocity; 
+                audioSource.PlayOneShot(jumpSound, 1.0f);
             }
     }
     private void Climb()
@@ -98,7 +111,16 @@ public class Player : MonoBehaviour
         bool vSpeed = Mathf.Abs(playerCharacter.velocity.y) >Mathf.Epsilon;
         playerAnimator.SetBool("climb", vSpeed);
     }
-
+    
+    private void Die()
+    {
+        if(playerBodyCollider.IsTouchingLayers(LayerMask.GetMask("Enemy", "Traps"))) 
+        {
+            isAlive = false; 
+            playerAnimator.SetTrigger("die");
+            GetComponent<Rigidbody2D>().velocity = deathSeq;
+        }
+    }
     
 }
 

@@ -1,25 +1,19 @@
 fileFormatVersion: 2
-guid: e904802fc1b69894d99752277512309c
+guid: 30a2a823389ac1f42b5724b5045ca305
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7450601880952944154
-    second: enemy_01_0
+      213: -856085545168688419
+    second: ice_0
   - first:
-      213: 6738857179055857345
-    second: enemy_01_1
+      213: -1054573163461033994
+    second: ice_1
   - first:
-      213: -6435727335407892228
-    second: enemy_01_2
+      213: -4747277866943198223
+    second: ice_2
   - first:
-      213: 8572328606830350271
-    second: enemy_01_3
-  - first:
-      213: -346854877606570280
-    second: enemy_01_4
-  - first:
-      213: -4470181687716996816
-    second: enemy_01_5
+      213: -4621826098645276579
+    second: ice_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -118,191 +112,89 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: Lumin
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: tvOS
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: Windows Store Apps
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: enemy_01_0
+      name: ice_0
       rect:
         serializedVersion: 2
-        x: 11
-        y: 7
-        width: 32
+        x: 0
+        y: 78
+        width: 33
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a16be0d8fead56760800000000000000
-      internalID: 7450601880952944154
+      spriteID: ddaafde7bb29e14f0800000000000000
+      internalID: -856085545168688419
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: enemy_01_1
+      name: ice_1
       rect:
         serializedVersion: 2
-        x: 49
-        y: 7
+        x: 38
+        y: 78
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1ce17bd76ea358d50800000000000000
-      internalID: 6738857179055857345
+      spriteID: 6ffbe329b476d51f0800000000000000
+      internalID: -1054573163461033994
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: enemy_01_2
+      name: ice_2
       rect:
         serializedVersion: 2
-        x: 87
-        y: 7
-        width: 32
+        x: 76
+        y: 78
+        width: 33
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cf8cdbd1614bfa6a0800000000000000
-      internalID: -6435727335407892228
+      spriteID: 1fbc6c2aee74e1eb0800000000000000
+      internalID: -4747277866943198223
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: enemy_01_3
+      name: ice_3
       rect:
         serializedVersion: 2
-        x: 125
-        y: 7
+        x: 114
+        y: 78
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fbfca04237707f670800000000000000
-      internalID: 8572328606830350271
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: enemy_01_4
-      rect:
-        serializedVersion: 2
-        x: 163
-        y: 7
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8d616a79359bf2bf0800000000000000
-      internalID: -346854877606570280
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: enemy_01_5
-      rect:
-        serializedVersion: 2
-        x: 201
-        y: 7
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0391c266079b6f1c0800000000000000
-      internalID: -4470181687716996816
+      spriteID: d586e9896a9fbdfb0800000000000000
+      internalID: -4621826098645276579
       vertices: []
       indices: 
       edges: []
@@ -318,12 +210,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      enemy_01_5: -4470181687716996816
-      enemy_01_4: -346854877606570280
-      enemy_01_2: -6435727335407892228
-      enemy_01_3: 8572328606830350271
-      enemy_01_1: 6738857179055857345
-      enemy_01_0: 7450601880952944154
+      ice_3: -4621826098645276579
+      ice_1: -1054573163461033994
+      ice_2: -4747277866943198223
+      ice_0: -856085545168688419
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
